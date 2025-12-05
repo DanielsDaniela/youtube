@@ -1,0 +1,357 @@
+.body{
+    background-color: rgb(46, 46, 46);
+}
+
+
+*{font-family: Georgia, serif;}
+
+.homepage{ 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    border: 1px;
+    height: 40px;
+    width: 1300px;
+    
+}
+
+.menu-icon{width: 30px; height: 30px;} 
+.menu-icon:hover{
+    background-color: lightpink;
+}
+
+.homeimg{height: 30px;}
+
+.home{
+    font-size:40px; 
+}
+
+.Home{
+    display: flex;
+    align-items: center;
+} 
+.Home:hover{background-color: lightpink;}
+
+
+.search-icon{height: 35px;}
+.search-icon:hover{
+    background-color: lightpink;
+}
+
+.search{
+    height: 40px;
+    width: 250px;
+    border-radius: 30px;
+    border-color: black;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.Create{
+    height: 40px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.Create:hover{background-color: lightpink;}
+
+.profile{
+    border-width: 10px;
+    border-color: black;
+    height: 40px;
+}
+
+.voicesearch{
+    height: 40px;
+}
+.voicesearch:hover{background-color: lightpink;}
+
+.mic{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    background-color: inherit;
+}
+
+.bell{height: 30px;}
+
+.Bell{border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.Bell:hover{background-color: lightpink;}
+
+.right{display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.shortsimg{height: 30px;}
+.Shorts :hover{background-color: lightpink;}  
+
+.historyimg{height: 30px;}
+.History :hover{background-color: lightpink;}
+
+.subsimg{height: 30px;}
+.Subs :hover{background-color: lightpink;}
+.Subs{font-size: small;}
+
+.playlistimg{height: 30px;}
+.Playlist :hover{background-color: lightpink;}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 15px;
+    height: 15px;
+}
+
+.text{border: 2px;
+    width: fit-content;
+    border-color: lightpink;
+    padding: 5px;
+}
+.text:hover{background-color: lightpink;}
+
+.content{display: flex;}
+
+.main{display: block;
+    border: 1px;
+    border-radius: 5px;
+    height: 500px;
+    width: 1200px;
+    padding: 15px;
+}
+
+h6{font-family: Georgia, serif;}
+
+.firstline{
+    display: flex;
+}
+.card1{
+    border: 1px;
+    border-radius: 5px;
+    height: 200px fit-content;
+    width: 300px;
+    padding: 15px;
+}
+.card1:hover{
+    background-color: lightpink; 
+    transform: scale(1.19);
+    height: 205px fit-content;
+}
+.card1img{max-width: 100%; height: auto;}
+
+.caption1{display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.img1{width: 30px;
+    height: 30px;}
+
+.card2{
+    border: 1px;
+    border-radius: 5px;
+    height: 200px fit-content;
+    width: 300px ;
+    padding: 15px;
+}
+.card2:hover{background-color: lightpink; animation: bounce 0.5s;}
+@keyframes bounce{
+    0%{transform: translateY(0px);}
+    20%{transform: translateY(-40px);}
+    40%{transform: translateY(80px);}
+    60%{transform: translateY(-40px);}
+    80%{transform: translateY(80px);}
+    100%{transform: translateY(0px);}
+}
+.card2img{max-width: 100%; height: auto;}
+.caption2{display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.img2{width: 30px;
+    height: 30px;}
+
+.card3{
+    border: 1px;
+    border-radius: 5px;
+    height: 200px fit-content;
+    width: 300px;
+    padding: 15px;
+}
+.card3:hover{background-color: lightpink; animation: spin 0.3s;}
+@keyframes spin{
+    to{transform: rotateY(360deg);}
+}
+.card3img{max-width: 100%; height: auto;}
+.caption3{
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.img3{
+    width: 30px;
+    height: 30px;
+}
+
+.card4{
+     border: 1px;
+    border-radius: 5px;
+    height: 200px fit-content;
+    width: 300px;
+    padding: 15px;
+}
+.card4:hover{background-color: lightpink; animation: bounce 0.5s}
+@keyframes bounce{
+    0%{transform: translateX(0px);}
+    20%{transform: translateY(80px);}
+    40%{transform: translateX(-80px);}
+    60%{transform: translateY(80px);}
+    80%{transform: translateX(-80px);}
+    100%{transform: translateY(0px);}
+}
+.card4img{max-width: 100%; height: auto;}
+.caption4{
+    display: flex;
+    align-items: center;
+    font-size: medium;
+}
+.img4{
+    width: 30px;
+    height: 30px;
+}
+
+.secondline{flex-direction: column;
+    border: 1px;
+    height: fit-content;
+    width: 1000px fit-content;}
+
+.Intro{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.intrologo{
+    height: 30px;
+    width: 30px;
+}
+
+.shortsv{   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shortsv1img{
+    height: 240px;
+    width: 170px;
+}
+.shortsv1{
+    border: 1px;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+}
+.shortsv1:hover{background-color: lightpink; transform: scale(1.15);}
+
+.shortsv2img{
+    height: 240px;
+    width: 170px;
+}
+.shortsv2{
+    border: 1px;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+}
+.shortsv2:hover{background-color: lightpink; transform: scale(1.15);}
+
+.shortsv3img{
+    height: 240px;
+    width: 170px;
+}
+.shortsv3{
+    border: 1px;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+}
+.shortsv3:hover{background-color: lightpink; transform: scale(1.15);}
+
+.shortsv4img{
+    height: 240px;
+    width: 170px;
+}
+.shortsv4{
+    border: 1px;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+}
+.shortsv4:hover{background-color: lightpink; transform: scale(1.15);}
+
+.shortsv5img{
+    height: 240px;
+    width: 170px;
+}
+.shortsv5img{
+    border: 1px;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+}
+.shortsv5:hover{background-color: lightpink; transform: scale(1.15);}
+
+.shortsv6img{
+    height: 240px;
+    width: 170px;
+}
+.shortsv6{
+    border: 1px;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    align-items: center;
+    padding: 15px;
+}
+.shortsv6:hover{background-color: lightpink; transform: scale(1.15);}
+
+
+
+/* Media Query */
+@media (max-width:720px) and (min-width:20px)  {
+    body {background-color: indianred;}
+}
+
+@media (max-width:900px) and (min-width:721px) {
+    body {background-color: violet;}
+}
+
+@media (max-width:1024px) and (min-width:901px) {
+    body{background-color: rosybrown;}
+}
